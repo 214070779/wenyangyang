@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8aeaa00-5970-470f-9c3f-bc306a30691a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/4f/f8/f918650d225907b78b4ca592d71b3926e752fccbd150fdae455a92c38ec89dbf0f70966861c623b04bc2cb5a5d9b424280dd81bd3b89d15e4a3721690396" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/eb/83/0fbd4534d7bf21ac077474e0205132229c1fc41fc77d7d25f90f75ff15bf22b307e2bf2616f417125b890e61441700316c76a3248a1a069fb755c4da8322" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/19/f7/126a0764bfac08d9091d2ce5c952a7eb1631591e4b2034ca8b187b8aada3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/git/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/H5/vue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/iOS-Summary/Animation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/job-Summary/Animation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/lib/app/.temp/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/lib/app/.temp/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/lib/app/.temp/siteData.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/lib/app/.temp/siteData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/07348941d5a52c0b7ae838d09f2086d5.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/07348941d5a52c0b7ae838d09f2086d5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/17347af33034b0396a65ad5b5797acbb.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/17347af33034b0396a65ad5b5797acbb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/1aee50fcab28ed8c4348623efdd51ff2.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/1aee50fcab28ed8c4348623efdd51ff2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/2170fab78acdefa21a35b8161d490f0a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/2170fab78acdefa21a35b8161d490f0a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/2c61d44f8ac91022f1b691006ad9a2c2.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/2c61d44f8ac91022f1b691006ad9a2c2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/69895f34b4557632937dfc8844ec14c1.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/69895f34b4557632937dfc8844ec14c1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/6c0c310117b34b41090bace7d82e0269.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/6c0c310117b34b41090bace7d82e0269.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/b1a877c3f662825b5badc2c8479deaa2.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/b1a877c3f662825b5badc2c8479deaa2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/c3acf3d1e92dd1cea1d753e2a81b46eb.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/c3acf3d1e92dd1cea1d753e2a81b46eb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/d4b1a658e27df12aa9495032c8e2930a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/d4b1a658e27df12aa9495032c8e2930a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/d6618f4e542784285cf6a62ea441aa5b.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/d6618f4e542784285cf6a62ea441aa5b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/e7dc4cbe5643536e63334d400adfe8ef.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vuepress/node_modules/.cache/vuepress/e7dc4cbe5643536e63334d400adfe8ef.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +38,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/README.md">
+        <entry file="file://$PROJECT_DIR$/docs/algorithm/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="435">
-                <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="6" />
+              <first_editor>
+                <caret selection-end-line="2" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -36,33 +50,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/iOS-Summary/Animation.md">
+        <entry file="file://$PROJECT_DIR$/docs/git/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" selection-end-line="34" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/iOS-Summary/Arithmetic.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/H5/vue.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="184">
-                <caret line="279" selection-start-line="279" selection-end-line="279" />
+              <first_editor relative-caret-position="45">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,32 +64,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deploy.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/../项目资料/左拍相关/zuopai.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../项目资料/左拍相关/左拍网站/前端/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="888">
+              <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/git/Git.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/git/gitStudy.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="360">
+                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -105,11 +111,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/guide.md">
+        <entry file="file://$PROJECT_DIR$/docs/H5/brower.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2745">
-                <caret line="183" column="14" selection-start-line="183" selection-start-column="14" selection-end-line="183" selection-end-column="14" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" selection-start-line="23" selection-end-line="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -117,8 +123,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.vuepress/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/docs/H5/Angular.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/H5/beike.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -141,18 +162,24 @@
         <option value="$PROJECT_DIR$/docs/jobSummary/Memory-management.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/docs/guide.md" />
-        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/docs/.vuepress/dist/guide.html" />
-        <option value="$PROJECT_DIR$/docs/README.md" />
         <option value="$PROJECT_DIR$/docs/H5/vue.md" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/docs/git/README.md" />
+        <option value="$USER_HOME$/Downloads/xiaoshixiuPay.html" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/dist/job-Summary/Animation.html" />
+        <option value="$PROJECT_DIR$/docs/algorithm/README.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/docs/README.md" />
+        <option value="$PROJECT_DIR$/../项目资料/左拍相关/左拍网站/前端/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-43" />
-    <option name="y" value="274" />
+    <option name="x" value="251" />
+    <option name="y" value="93" />
     <option name="width" value="1513" />
-    <option name="height" value="850" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,25 +216,12 @@
               <item name="wenyangyang" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenyangyang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wenyangyang" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="H5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenyangyang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wenyangyang" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="iOS-Summary" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,6 +230,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,7 +244,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -239,9 +265,32 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -259,12 +308,20 @@
       <workItem from="1584547154715" duration="580000" />
       <workItem from="1585359839087" duration="615000" />
       <workItem from="1585407383430" duration="960000" />
-      <workItem from="1585448568599" duration="797000" />
+      <workItem from="1585448568599" duration="1619000" />
+      <workItem from="1585461343156" duration="2722000" />
+      <workItem from="1586147701320" duration="237000" />
+      <workItem from="1599748035057" duration="4432000" />
+      <workItem from="1599752736658" duration="140000" />
+      <workItem from="1599871780434" duration="1028000" />
+      <workItem from="1600774837013" duration="730000" />
+      <workItem from="1602158955992" duration="572000" />
+      <workItem from="1602328891777" duration="99000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17155000" />
+    <option name="totallyTimeSpent" value="27937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,19 +333,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-43" y="274" width="1513" height="850" extended-state="0" />
+    <frame x="251" y="93" width="1513" height="1057" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="npm" order="1" sideWeight="0.18865435" side_tool="true" visible="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.81134564" visible="true" weight="0.25" />
+      <window_info id="npm" order="1" sideWeight="0.19896373" side_tool="true" visible="true" weight="0.2386059" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.8010363" visible="true" weight="0.2386059" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3298153" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.33914208" side_tool="true" weight="0.34093264" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3298153" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3298153" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6608579" weight="0.2373057" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -320,9 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/jobSummary/Arithmetic.html" />
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/jobSummary/Memory-management.html" />
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/algorithm/index.html">
@@ -331,14 +385,6 @@
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/accumulate/index.html" />
     <entry file="file://$PROJECT_DIR$/docs/jobSummary/Memory-management.md" />
     <entry file="file://$PROJECT_DIR$/docs/accumulate/README.md" />
-    <entry file="file://$PROJECT_DIR$/docs/algorithm/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/jobSummary/Arithmetic.md" />
     <entry file="file://$PROJECT_DIR$/docs/others/README.md" />
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/assets/js/app.0b9914f0.js" />
@@ -359,53 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2745">
-            <caret line="183" column="14" selection-start-line="183" selection-start-column="14" selection-end-line="183" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.vuepress/dist/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -417,23 +416,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/iOS-Summary/Animation.md">
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/iOS-Summary/Arithmetic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/job-Summary/Arithmetic.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" selection-end-line="34" selection-end-column="7" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/iOS-Summary/Code-management.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/images/eg2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/H5/vue.md">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/dist/docs/accumulate/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/dist/docs/algorithm/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/xiaoshixiuPay.html" />
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/H5/vue.html" />
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/job-Summary/Animation.html" />
+    <entry file="file://$PROJECT_DIR$/docs/iOS-Summary/Animation.md" />
+    <entry file="file://$PROJECT_DIR$/docs/job-Summary/Animation.md" />
+    <entry file="file://$PROJECT_DIR$/docs/H5/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="184">
-            <caret line="279" selection-start-line="279" selection-end-line="279" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/iOS-Summary/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="21" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="21" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/H5/vue.md" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1185">
+            <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/algorithm/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="2" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/git/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../项目资料/左拍相关/zuopai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/git/Git.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/git/gitStudy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/H5/brower.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="23" selection-start-line="23" selection-end-line="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/H5/Angular.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/H5/beike.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../项目资料/左拍相关/左拍网站/前端/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
         </state>
       </provider>
     </entry>

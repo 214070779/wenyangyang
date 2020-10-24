@@ -16,25 +16,67 @@ module.exports = {
   },
   themeConfig: {
     nav:[ // 导航栏配置
-      {text: '前端总结', link: '/H5/vue/' },
+      {text: '前端总结', link: '/H5/' },
       {text: '算法总结', link: '/algorithm/'},
-      {text: 'iOS总结', link: '/iOS-Summary/Animation/'},
-      {text: '工作总结', link: '/job-Summary/Arithmetic/'},
+      {text: 'iOS总结', link: '/iOS-Summary/'},
+      {text: 'git总结', link: '/git/'},
     ],
     sidebar:{
       '/H5/': [
           {
             title: '前端总结',
+            collapsable: true,
             children: [
-              '/H5/vue.html',
+              'brower',
+              'beike',
+              'browerStudy',
+              'bytedance',
+              'alibaba',
+              'Angular',
+              'baidu',
+              'bigo',
+              'cmbchina',
+              'CS',
+              'css',
+              'designStudy',
+              'es6Study',
+              'ESsix',
+              'gauzi',
+              'horizon',
+              'html',
+              'kuangshi',
+              'megvii',
+              'meituan',
+              'microsoft',
+              'MobileWeb',
+              'mycode',
+              'network',
+              'Node',
+              'Other',
+              'performance',
+              'pinduoduo',
+              'project',
+              'SQL',
+              'tencent',
+              'tusimple',
+              'vivo',
+              'wangyi',
+              'webpack',
+              'webSecurity',
+              'xinghuan',
+              'yuanfudao',
+              'zuoyebang',
             ]
           }
         ],
+
         '/algorithm/': [
           {
             title: '算法题库',
             children: [
-              '/algorithm/',
+              '链表',
+              '数组',
+              '字典',
             ]
           }
         ],
@@ -42,45 +84,44 @@ module.exports = {
         {
           title: 'iOS总结',
           children: [
-            '/iOS-Summary/Animation.html',
-            '/iOS-Summary/Arithmetic.html',
-            '/iOS-Summary/Code-management.html',
-            '/iOS-Summary/Component-based.html',
-            '/iOS-Summary/Continuous-integration.html',
-            '/iOS-Summary/Data-encryption.html',
-            '/iOS-Summary/Data-storage.html',
-            '/iOS-Summary/Data-structure.html',
-            '/iOS-Summary/Debug-tips.html',
-            '/iOS-Summary/Design-patterns.html',
-            '/iOS-Summary/Foundation.html',
-            '/iOS-Summary/Image-processing.html',
-            '/iOS-Summary/Memory-management.html',
-            '/iOS-Summary/Message-passing.html',
-            '/iOS-Summary/Multi-thread.html',
-            '/iOS-Summary/Network.html',
-            '/iOS-Summary/Performance-optimization.html',
-            '/iOS-Summary/Project-organization.html',
-            '/iOS-Summary/Runloop.html',
-            '/iOS-Summary/Runtime.html',
-            '/iOS-Summary/Source-code.html',
-            '/iOS-Summary/UIKit.html',
-            '/iOS-Summary/WebView.html',
+            'Arithmetic',
+            'Code-management',
+            'Component-based',
+            'Continuous-integration',
+            'Data-encryption',
+            'Data-storage',
+            'Data-structure',
+            'Debug-tips',
+            'Design-patterns',
+            'Foundation',
+            'Image-processing',
+            'Memory-management',
+            'Message-passing',
+            'Multi-thread',
+            'Network',
+            'Performance-optimization',
+            'Project-organization',
+            'Runloop',
+            'Runtime',
+            'Source-code',
+            'UIKit',
+            'WebView',
           ]
         }
       ],
-      '/job-Summary/': [
+      '/git/': [
         {
-          title: '工作总结',
+          title: 'git命令',
           children: [
-            '/job-Summary/Arithmetic.html',
-            '/job-Summary/Animation.html',
-
-          ],
+            'Git',
+            'gitStudy',
+          ]
         }
-      ]
+      ],
+
     },
     // sidebar: 'auto', // 侧边栏配置
     sidebarDepth: 2,
-    displayAllHeaders: true
+    // displayAllHeaders: true
   }
 };
