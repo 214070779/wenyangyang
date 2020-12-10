@@ -5,9 +5,9 @@ module.exports = {
     ['link', { rel: 'icon', href: '/images/photo.jpg' }],
     ['link', { rel: 'manifest', href: '/images/photo.jpg' }],
     ['link', { rel: 'apple-touch-icon', href: '/images/photo.jpg' }],
-    ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache'}],
-    ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache,must-revalidate'}],
-    ['meta', { 'http-quiv': 'expires', cotent: '0'}]
+    ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache' }],
+    ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache,must-revalidate' }],
+    ['meta', { 'http-quiv': 'expires', cotent: '0' }]
   ],
   serviceWorker: true, // 是否开启 PWA
   base: '/', // 部署到github相关的配置
@@ -15,71 +15,72 @@ module.exports = {
     lineNumbers: true // 代码块是否显示行号
   },
   themeConfig: {
-    nav:[ // 导航栏配置
-      {text: '前端总结', link: '/H5/' },
-      {text: '算法总结', link: '/algorithm/'},
-      {text: 'iOS总结', link: '/iOS-Summary/'},
-      {text: 'git总结', link: '/git/'},
+    nav: [ // 导航栏配置
+      { text: '前端总结', link: '/H5/' },
+      { text: '算法总结', link: '/algorithm/' },
+      { text: 'iOS总结', link: '/iOS-Summary/' },
+      { text: 'git总结', link: '/git/' },
+      { text: '设计模式', link: '/design-Patterns/' },
     ],
-    sidebar:{
+    sidebar: {
       '/H5/': [
-          {
-            title: '前端总结',
-            collapsable: true,
-            children: [
-              'brower',
-              'beike',
-              'browerStudy',
-              'bytedance',
-              'alibaba',
-              'Angular',
-              'baidu',
-              'bigo',
-              'cmbchina',
-              'CS',
-              'css',
-              'designStudy',
-              'es6Study',
-              'ESsix',
-              'gauzi',
-              'horizon',
-              'html',
-              'kuangshi',
-              'megvii',
-              'meituan',
-              'microsoft',
-              'MobileWeb',
-              'mycode',
-              'network',
-              'Node',
-              'Other',
-              'performance',
-              'pinduoduo',
-              'project',
-              'SQL',
-              'tencent',
-              'tusimple',
-              'vivo',
-              'wangyi',
-              'webpack',
-              'webSecurity',
-              'xinghuan',
-              'yuanfudao',
-              'zuoyebang',
-            ]
-          }
-        ],
+        {
+          title: '前端总结',
+          collapsable: true,
+          children: [
+            'brower',
+            'beike',
+            'browerStudy',
+            'bytedance',
+            'alibaba',
+            'Angular',
+            'baidu',
+            'bigo',
+            'cmbchina',
+            'CS',
+            'css',
+            'designStudy',
+            'es6Study',
+            'ESsix',
+            'gauzi',
+            'horizon',
+            'html',
+            'kuangshi',
+            'megvii',
+            'meituan',
+            'microsoft',
+            'MobileWeb',
+            'mycode',
+            'network',
+            'Node',
+            'Other',
+            'performance',
+            'pinduoduo',
+            'project',
+            'SQL',
+            'tencent',
+            'tusimple',
+            'vivo',
+            'wangyi',
+            'webpack',
+            'webSecurity',
+            'xinghuan',
+            'yuanfudao',
+            'zuoyebang',
+          ]
+        }
+      ],
 
-        '/algorithm/': [
-          {
-            title: '算法题库',
-            children: [
-              '链表',
-              '数组',
-              '字典',
-            ]
-          }
-        ],
+      '/algorithm/': [
+        {
+          title: '算法题库',
+          children: [
+            '链表',
+            '数组',
+            '字典',
+          ]
+        }
+      ],
       '/iOS-Summary/': [
         {
           title: 'iOS总结',
@@ -118,7 +119,16 @@ module.exports = {
           ]
         }
       ],
-
+      '/design-Patterns/': [
+        {
+          title: '设计模式',
+          children: [
+            '创建型模式',
+            '结构型模式',
+            '行为型模式',
+          ]
+        }
+      ],
     },
     // sidebar: 'auto', // 侧边栏配置
     sidebarDepth: 2,
