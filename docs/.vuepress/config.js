@@ -114,8 +114,8 @@ module.exports = {
         {
           title: 'git命令',
           children: [
-            'Git',
             'gitStudy',
+            'Git',
           ]
         }
       ],
@@ -123,6 +123,7 @@ module.exports = {
         {
           title: '设计模式',
           children: [
+            '概述',
             '创建型模式',
             '结构型模式',
             '行为型模式',
@@ -131,7 +132,7 @@ module.exports = {
       ],
     },
     // sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 2,
+    sidebarDepth: 3,
     // displayAllHeaders: true
   }
 };
