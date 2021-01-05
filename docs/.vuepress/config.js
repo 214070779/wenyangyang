@@ -21,6 +21,7 @@ module.exports = {
       { text: 'iOS总结', link: '/iOS-Summary/' },
       { text: 'git总结', link: '/git/' },
       { text: '设计模式', link: '/design-Patterns/' },
+      { text: '理财体系', link: '/investment/' },
     ],
     sidebar: {
       '/H5/': [
@@ -127,6 +128,17 @@ module.exports = {
             '创建型模式',
             '结构型模式',
             '行为型模式',
+          ]
+        }
+      ],
+      '/investment/': [
+        {
+          title: '投资体系',
+          children: [
+            '财富算法',
+            '三大定理',
+            '投资武器',
+            '公司分析',
           ]
         }
       ],
