@@ -1,32 +1,14 @@
 ---
 home: true
-heroImage: /images/photo.jpg
-actionText: 如何创建一个博客 →
-actionLink: guide.html
+heroImage: /heroImage.jpg
+actionText: 开始阅读 →
+actionLink: /投资体系/
 features:
-- title: 用心总结
-  details: 工作、学习过程中用心总结才可以迭代出好的东西
-- title: 专心做事
-  details: 专心搞好每一件经手的事情。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 投资
+  details: 平时喜欢投资，对商业的一些东西较喜欢。
+- title: 技术相关
+  details: 工作中的总结记录。
+
+  
+footer: MIT Licensed | Copyright © 2019-present yangzai
 ---
-
-:tada: :100:
-
-::: tip 提示
-this is a tip
-:::
-
-::: warning 注意
-this is a tip
-:::
-
-::: danger 警告
-this is a tip
-:::
-
-``` js
-<script>
-	console.log('Hello world')
-</script>
-```

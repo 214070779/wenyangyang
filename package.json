@@ -1,30 +1,29 @@
 {
-  "name": "wenyangyang",
+  "name": "yangzai-blog",
   "version": "1.0.0",
-  "description": "### 步骤一：git clone git@mobike.io:zhangyunchen/vuepress-devkit.git",
+  "description": "我的学习笔记",
   "main": "index.js",
   "scripts": {
-    "start": "vuepress dev docs",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "洋仔",
+    "yangzai",
+    "洋仔的主页"
+  ],
+  "author": "yangzai",
   "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1",
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
+    "vuepress": "^1.0.3"
+  },
   "dependencies": {
-    "vuepress": "^0.14.4"
-  },
-  "directories": {
-    "doc": "docs"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/214070779/wenyangyang.git"
-  },
-  "bugs": {
-    "url": "https://github.com/214070779/wenyangyang/issues"
-  },
-  "homepage": "https://github.com/214070779/wenyangyang#readme"
+    "@vssue/api-github-v3": "^1.1.2",
+    "@vssue/vuepress-plugin-vssue": "^1.2.2"
+  }
 }
