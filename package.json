@@ -1,29 +1,30 @@
 {
-  "name": "yangzai-blog",
+  "name": "theme-vdoing-blog",
   "version": "1.0.0",
-  "description": "我的学习笔记",
-  "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "editFm": "node utils/editFrontmatter.js",
+    "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
+    "publish": "cd ./vdoing && npm publish && cd .. && yarn updateTheme",
+    "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D"
   },
-  "keywords": [
-    "洋仔",
-    "yangzai",
-    "洋仔的主页"
-  ],
-  "author": "yangzai",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1",
-    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
-    "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
-    "vuepress": "^1.0.3"
-  },
-  "dependencies": {
-    "@vssue/api-github-v3": "^1.1.2",
-    "@vssue/vuepress-plugin-vssue": "^1.2.2"
+    "dayjs": "^1.9.7",
+    "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
+    "vuepress": "1.9.5",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7",
+    "vuepress-theme-vdoing": "^1.9.4",
+    "yamljs": "^0.3.0"
   }
 }
