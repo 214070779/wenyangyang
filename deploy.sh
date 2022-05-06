@@ -3,10 +3,10 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
+# # 生成静态文件
 npm run build
 
-# 进入生成的文件夹
+# # 进入生成的文件夹
 cd docs/.vuepress/dist
 
 # deploy to github pages
@@ -22,10 +22,13 @@ cd docs/.vuepress/dist
 #   # git config --global user.email "894072666@qq.com"
 #   githubUrl = git@github.com:214070779/214070779.github.io.git
 # fi
+# git config --global user.name "214070779"
+# git config --global user.email "214070779@qq.com"
+# git config --global init.defaultBranch master 
 git init
-git add -A
+git add .
 # git commit -m "${msg}"
-git commit -m 'deploy'# git push -f $githubUrl master # 推送到github gh-pages分支
+git commit -m "博客更新啦"  # git push -f $githubUrl master # 推送到github gh-pages分支
 git push -f git@github.com:214070779/214070779.github.io.git master
 # deploy to coding pages
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
