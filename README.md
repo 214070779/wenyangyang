@@ -49,3 +49,7 @@ npm install # or yarn install
 npm run dev # or yarn dev
 ```
 
+## fix bug
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+```
