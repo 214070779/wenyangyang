@@ -5,7 +5,6 @@ import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 
-
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm包主题
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题
@@ -25,50 +24,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '前端',
-        link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        text: '个人心法',
+        link: '/person/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '前端文章',
+            text: '个人心法总结',
             items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+              { text: '价值心法', link: '/pages/fe3f91/' },
             ],
-          },
-          {
-            text: '学习笔记',
-            items: [
-              { text: '《JavaScript教程》', link: '/note/javascript/' },
-              { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
-              {
-                text: '《TypeScript 从零实现 axios》',
-                link: '/note/typescript-axios/',
-              },
-              {
-                text: '《Git》',
-                link: '/note/git/',
-              },
-              {
-                text: 'TypeScript',
-                link: '/pages/51afd6/',
-              },
-              {
-                text: 'JS设计模式总结',
-                link: '/pages/4643cd/',
-              },
-            ],
-          },
-          {
-            text: '页面',
-            link: '/ui/',
-            items: [
-              { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-              { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-            ],
-          },
+          }
         ],
       },
 
@@ -81,6 +46,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
           { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
           { text: 'iOS基础知识', link: '/pages/d13cac/' },
+          { text: '前端', link: '/pages/8309a5b876fc95e3/' }
         ],
       },
       {
@@ -92,6 +58,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
           { text: '实用技巧', link: '/pages/baaa02/' },
           { text: '投资体系', link: '/pages/15d3d8/' },
+          { text: '毛选', link: '/pages/4db018/' },
           { text: '友情链接', link: '/friends/' },
         ],
       },
@@ -297,13 +264,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 评论区
     'vuepress-plugin-comment': {
-      choosen: 'gitalk',
+      choosen: ' gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'xugaoyi', // GitHub仓库所有者
-        admin: ['xugaoyi'], // 对仓库有写权限的人
+        clientID: 'Ov23liLWL8NEbuQKh0tn',
+        clientSecret: 'f9392a5bcefaeaccecc4a7825d3d01670fa1eb8b',
+        repo: 'yangzaiTalk', // GitHub 仓库
+        owner: 'yangzai', // GitHub仓库所有者
+        admin: ['yangzai'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
